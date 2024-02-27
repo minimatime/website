@@ -13,3 +13,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
     typeText();
 });
+// document.addEventListener('DOMContentLoaded', function () {
+//     const svg1 = document.querySelector('.svg1');
+//     const svg2 = document.querySelector('.svg2');
+  
+//     function animateSVGs() {
+//       let rotation = 0;
+  
+//       function rotateSVGs() {
+//         svg1.style.transform = `rotate(${rotation}deg)`;
+//         svg2.style.transform = `rotate(-${rotation}deg)`;
+  
+//         rotation++;
+//         requestAnimationFrame(rotateSVGs);
+//       }
+  
+//       rotateSVGs();
+//     }
+  
+//     animateSVGs();
+//   });
+  
